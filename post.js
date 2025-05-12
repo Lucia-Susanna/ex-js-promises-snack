@@ -19,5 +19,5 @@ function getPost(id) {
         .catch(error => console.error(error));
 }
 
-getPostTitle(1).then(title => console.log("Post Title:", title));
-getPost(1).then(post => console.log("Post with User:", post));
+getPostTitle(1).then(title => console.log(title));
+getPost(4).then(post => console.log(post));
